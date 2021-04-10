@@ -1,13 +1,12 @@
 import './App.css';
+import Home from './Components/Homepage/Home/Home';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Looker Homepage
-        </p>
-        {/* Homepage */}
+        <Home />
         {/* Search Page */}
       </header>
     </div>
