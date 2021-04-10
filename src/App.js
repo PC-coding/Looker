@@ -7,6 +7,8 @@ function App() {
         <p>
           Looker Homepage
         </p>
+        {/* Homepage */}
+        {/* Search Page */}
       </header>
     </div>
   );
