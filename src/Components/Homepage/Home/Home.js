@@ -23,6 +23,9 @@ function Home() {
             <div className='home_body'>
                 
             </div>
+            <div className='home_inputContainer'>
+                {/* <Search /> */}
+            </div>
         </div>
     )
 }
