@@ -22,10 +22,9 @@ function Home() {
             </div>
 
             <div className='home_body'>
-                
-            </div>
-            <div className='home_inputContainer'>
-                <Search />
+                <div className='home_inputContainer'>
+                    <Search />
+                </div>
             </div>
         </div>
     )
