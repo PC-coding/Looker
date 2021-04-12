@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Search.css';
 import SearchIcon from '@material-ui/icons/Search';
 import MicIcon from '@material-ui/icons/Mic'
 
