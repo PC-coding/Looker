@@ -11,6 +11,10 @@ function Search() {
                 <input />
                 <MicIcon />
             </div>
+            <div className='search_buttons'>
+                <Button>Looker Search</Button>
+                <Button>I'm Feeling Fortunate</Button>
+            </div>
         </div>
     )
 }
