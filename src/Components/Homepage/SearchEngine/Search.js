@@ -9,13 +9,14 @@ function Search() {
 
     const search = e => {
         e.preventDefault();
+        console.log('search button ??????')
     }
     
     return (
         <div className='search'>
             <div className='search_input'>
                 <SearchIcon className='search_inputIcon' />
-                <input />
+                <input value={input} onChange={e => setInput(e.target.value)}/>
                 <MicIcon />
             </div>
             <div className='search_buttons'>
