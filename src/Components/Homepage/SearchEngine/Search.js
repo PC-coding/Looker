@@ -10,7 +10,7 @@ function Search() {
     const search = e => {
         e.preventDefault();
         console.log('search button ??????')
-    }
+    };
     
     return (
         <div className='search'>
