@@ -2,6 +2,7 @@ import React from 'react';
 import './Search.css';
 import SearchIcon from '@material-ui/icons/Search';
 import MicIcon from '@material-ui/icons/Mic'
+import { Button } from '@material-ui/core'
 
 function Search() {
     return (
@@ -12,8 +13,8 @@ function Search() {
                 <MicIcon />
             </div>
             <div className='search_buttons'>
-                <Button>Looker Search</Button>
-                <Button>I'm Feeling Fortunate</Button>
+                <Button variant='outlined'>Looker Search</Button>
+                <Button variant='outlined'>I'm Feeling Fortunate</Button>
             </div>
         </div>
     )
