@@ -10,7 +10,6 @@ function App() {
       <Router>
         <Switch>
           <Route path='/search'>
-            <Search hideButtons />
           </Route>
           <Route path='/'>
             <Home />
