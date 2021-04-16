@@ -5,6 +5,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import { Button } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import { actionTypes } from '../../../reducer';
+import { useStateValue } from '../../../StateProvider';
 
 function Search({ hideButtons = false }) {
     const [{}, dispatch] = useStateValue();
