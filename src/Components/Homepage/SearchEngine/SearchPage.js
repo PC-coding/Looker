@@ -8,7 +8,7 @@ function SearchPage() {
     return (
         <div className='searchPage'>
             <div className='searchPage_header'>
-
+                <p>{term}</p>
             </div>
             <div className='searchPage_results'>
 
