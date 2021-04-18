@@ -8,3 +8,9 @@
     padding: 30px;
     border-bottom: 1px solid lightgray;
 }
+
+.searchPageLogo {
+    object-fit: contain;
+    height: 50px;
+    margin-right: 50px;
+}
