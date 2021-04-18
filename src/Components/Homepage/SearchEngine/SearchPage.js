@@ -14,7 +14,7 @@ function SearchPage() {
         <div className='searchPage'>
             <div className='searchPage_header'>
                 <Link to='/search'>
-                    <img src={searchLogo} alt='' />
+                    <img className='searchPageLogo' src={searchLogo} alt='' />
                 </Link>
             </div>
             <div className='searchPage_results'>
