@@ -16,6 +16,8 @@ const useGoogleSearch = () => {
                 setData(result)
             })
         }
+        
+        fetchData();
     }, [term])
 
     return { data}
