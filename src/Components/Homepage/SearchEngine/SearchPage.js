@@ -4,6 +4,7 @@ import { useStateValue } from '../../../StateProvider';
 import useGoogleSearch from './useGoogleSearch';
 import { Link } from 'react-router-dom';
 import searchLogo from '../../../Looker_logo.png';
+import Search from './Search';
 
 function SearchPage() {
     const [{ term }, dispatch] = useStateValue();
@@ -18,7 +19,7 @@ function SearchPage() {
                 </Link>
             </div>
             <div className='searchPage_results'>
-
+                <Search hideButtons />
             </div>
         </div>
     )
