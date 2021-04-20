@@ -14,12 +14,13 @@ function SearchPage() {
     return (
         <div className='searchPage'>
             <div className='searchPage_header'>
-                <Link to='/search'>
+                <Link to="/">
                     <img className='searchPageLogo' src={searchLogo} alt='' />
                 </Link>
-            </div>
-            <div className='searchPage_results'>
-                <Search hideButtons />
+            
+                <div className='searchPage_headerBody'>
+                    <Search hideButtons />  
+                </div>
             </div>
         </div>
     )

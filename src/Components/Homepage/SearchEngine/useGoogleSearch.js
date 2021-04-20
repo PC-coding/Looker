@@ -3,7 +3,7 @@ import API_KEY from '../keys';
 
 const CONTEXT_KEY = '453e1b921e389719c';
 
-const useGoogleSearch = ( term ) => {
+const useGoogleSearch = (term) => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
@@ -20,7 +20,7 @@ const useGoogleSearch = ( term ) => {
         fetchData();
     }, [term])
 
-    return { data}
+    return { data }
 }
 
 export default useGoogleSearch
