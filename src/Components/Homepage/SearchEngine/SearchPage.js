@@ -26,35 +26,45 @@ function SearchPage() {
             
                 <div className='searchPage_headerBody'>
                     <Search hideButtons />  
+
                     <div className='searchPage_options'>
-                        <SearchIcon />
-                        <Link to='/all'>All</Link>
-                    </div>
-                    <div className='searchPage_options'>
-                        <DescriptionIcon />
-                        <Link to='/news'>News</Link>
-                    </div>
-                    <div className='searchPage_options'>
-                        <ImageIcon />
-                        <Link to='/images'>Images</Link>
-                    </div>
-                    <div className='searchPage_options'>
-                        <LocalOfferIcon />
-                        <Link to='/shopping'>Shopping</Link>
-                    </div>
-                    <div className='searchPage_options'>
-                        <RoomIcon />
-                        <Link to='/maps'>Maps</Link>
-                    </div>
-                    <div className='searchPage_options'>
-                        <MoreVertIcon />
-                        <Link to='/more'>More</Link>
+                        <div className='searchPage_optionsLeft'>
+                            <div className='searchPage_option'>
+                                <SearchIcon />
+                                <Link to='/all'>All</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <DescriptionIcon />
+                                <Link to='/news'>News</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <ImageIcon />
+                                <Link to='/images'>Images</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <LocalOfferIcon />
+                                <Link to='/shopping'>Shopping</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <RoomIcon />
+                                <Link to='/maps'>Maps</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <MoreVertIcon />
+                                <Link to='/more'>More</Link>
+                            </div>
+                        </div>
+
+                        <div className='searchPage_optionsRight'>
+                            <div className='searchPage_option'>
+                                <Link to='/settings'>Settings</Link>
+                            </div>
+                            <div className='searchPage_option'>
+                                <Link to='/tools'>Tools</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div className='searchPage_results'>
-
             </div>
         </div>
     )
