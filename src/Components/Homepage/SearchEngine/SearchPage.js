@@ -66,6 +66,16 @@ function SearchPage() {
                     </div>
                 </div>
             </div>
+
+            {true && (
+                <div 
+                className='searchPage_results'>
+                    <p className='searchPage_resultsCount'>
+                        About {data?.searchInformation.formattedTotalResults} results
+                        ({data?.searchInformation.formattedSearchTime} seconds) for {term}
+                    </p>
+                </div>
+            )}
         </div>
     )
 }
