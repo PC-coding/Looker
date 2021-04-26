@@ -70,7 +70,7 @@ function SearchPage() {
             {true && (
                 <div 
                 className='searchPage_results'>
-                    <p className='searchPage_resultsCount'>
+                    <p className='searchPage_resultCount'>
                         About {data?.searchInformation.formattedTotalResults} results
                         ({data?.searchInformation.formattedSearchTime} seconds) for {term}
                     </p>
@@ -84,6 +84,10 @@ function SearchPage() {
                             <a className='searchPage_resultTitle'>
                                 <h2>{item.title}</h2>
                             </a>
+
+                            <p className='searchPage_resultSnippet'>
+                                {item.snippet}
+                            </p>
                         </div>
                     ))}
                 </div>
