@@ -15,7 +15,7 @@ function Home() {
                     <Link to='/store'>Store</Link>
                 </div>
                 <div className='home_headerRight'>
-                    <Link to='/lmail'>Lmail</Link>
+                    <Link to='{{ pathname: "https://looker-mail.web.app" }}' target='blank'>Lmail</Link>
                     <Link to='/images'>Images</Link>
                     <AppsIcon />
                     <Avatar />
